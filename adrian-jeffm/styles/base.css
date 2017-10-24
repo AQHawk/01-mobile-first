@@ -34,7 +34,11 @@ header h1 {
 }
 
 h1 {
-  padding
+  padding: .9em .5em .5em .5em;
+}
+
+h2 {
+  padding: .2em 0em 0em .7em;
 }
 
 p {
@@ -45,4 +49,10 @@ p {
 ul {
   padding-bottom: 0;
 
+}
+
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(104, 103, 105)
 }
