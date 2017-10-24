@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+img {
+  max-width: 100%;
+  padding: 1em;
+  margin: .5em;
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffeaaa;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+h1 {
+  padding
+}
+
+p {
+  padding: 10
+}
+
+
+ul {
+  padding-bottom: 0;
+
+}
